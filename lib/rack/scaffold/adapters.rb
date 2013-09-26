@@ -90,5 +90,5 @@ module Rack
 end
 
 require 'rack/scaffold/adapters/active_record' if defined?(ActiveRecord::Base)
-require 'rack/scaffold/adapters/sequel' if defined?(Sequel)
-require 'rack/scaffold/adapters/core_data' if defined?(Sequel) and defined?(CoreData)
+require 'rack/scaffold/adapters/sequel'# if defined?(Sequel)
+require 'rack/scaffold/adapters/core_data'# if defined?(Sequel) and defined?(CoreData)
